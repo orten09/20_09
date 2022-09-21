@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Times New Roman', Times, serif;
+}
+#nav{
+    background-color:white;
+    display: flex;
+    justify-content:end;
+    height:6.5vh;
+    width:97.5vw;
+    align-items:center;
+    padding-right: 33px;
+    letter-spacing:4px;
+    position: fixed;
+    box-shadow: 20px -5px 15px rgb(0, 0, 0);
+}
+.nav_list{
+    list-style-type:none;
+    margin-left: 30px;
+}
+#first_nav_list{
+    position: relative;
+    right: 1350px;
+}
+#banner{
+    /* background-color:blueviolet; */
+    margin-bottom: 26px;
+}
+#banner_img{
+    background-image: url(../image/banner.jpg);
+    width: 90vw;
+    height: 80vh;
+    background-repeat: no-repeat;
+    margin-left: 160px;
+}
+#le{
+    font-size: 40px;
+    letter-spacing:4px;
+    color: rgb(94, 94, 94);
+    font-weight: 100;
+    position: relative;
+    bottom: 80px;
+    margin-left:190px;
+}
+#about{
+    /* background-color: aqua; */
+    height: 80vh;
+    display: flex;
+    justify-content:center;
+}
+#about_image{
+    width: 500px;
+    height: 500px;
+    /* background-color: yellow; */
+    margin-right: 25px;
+}
+#image1{
+    border-radius:3px;
+}
+#ac{
+    width: 500px;
+    height: 500px;
+    line-height:30px;
+    font-size: 18px;
+    /* background-color:violet; */
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.about_heading{
+    text-align:center;
+    padding-bottom: 48px;
+    letter-spacing: 4px;
+    font-weight: 500;
+}
+#ah2{
+    padding-bottom: 17px;
+}
+#p2{
+    padding-top: 20px;
+    color: rgb(128, 128, 128);
+}
+hr{
+    border:1px solid rgb(212, 212, 212);
+    width: 57vw;
+    margin: auto;
+}
+#manu{
+    /* background-color:rgb(255, 126, 255); */
+    margin-top:100px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+#our_manu{
+    /* background-color: yellow; */
+    margin-right: 25px;text-align: left;
+    margin-top: 20px;
+    line-height:55px;
+    letter-spacing: 4px;
+}
+.sub_manu{
+    letter-spacing: 0px;
+    position:relative;
+    bottom: 15px;
+    color:rgb(128, 128, 128); ;
+}
+#manu_image{
+    /* background-color:cadetblue; */
+    margin-left: 25px;
+}
+#image2{
+    border-radius: 3px;
+}
+#our_manu_head{
+    text-align:center;
+    padding-bottom: 48px;
+    letter-spacing: 4px;
+    font-weight: 500;
+}
+#contact{
+    /* background-color: tomato; */
+    width: 58vw;
+    height: 79vh;
+    margin-top: 110px;
+    display: block;
+    margin-left: 400px;
+}
+#contact_details{
+    /* background-color: yellow; */
+    height: 27vh;
+}
+#contact_heading1{
+    letter-spacing: 4px;
+    font-weight: 300px;
+    padding-bottom: 60px;
+}
+#contact_heading2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: rgb(89, 130, 177);
+}
+#contact_form{
+    height: 40vh;
+}
+input{
+    width: 57vw;
+    height: 6vh;
+    border: none;
+    background: none;
+    border-bottom: 1px solid rgb(212, 212, 212);
+    margin-top: 20px;
+}
+::placeholder{
+    font-size: 15px;
+}
+#button{
+    width: 150px;
+    height: 40px;
+    font-size: 17px;
+    margin-top: 35px;
+    background-color: rgb(238, 238, 238);
+}
+#foot{
+    background-color: rgb(238, 238, 238);
+    height: 10vh;
+    text-align: center;
+}
+#power{
+    padding-top: 40px;
+}
